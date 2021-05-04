@@ -1,24 +1,24 @@
-# template-react-hook
+# use-id
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/brunoscopelliti/template-react-hook/blob/main/LICENSE)
-[![npm version](https://img.shields.io/npm/v/@bscop/template-react-hook.svg?style=flat)](https://www.npmjs.com/package/@bscop/template-react-hook)
-[![CircleCI Status](https://circleci.com/gh/brunoscopelliti/template-react-hook.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/brunoscopelliti/template-react-hook)
-[![Coverage](https://img.shields.io/codecov/c/github/brunoscopelliti/template-react-hook)](https://app.codecov.io/gh/brunoscopelliti/template-react-hook/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/brunoscopelliti/use-id/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@bscop/use-id.svg?style=flat)](https://www.npmjs.com/package/@bscop/use-id)
+[![CircleCI Status](https://circleci.com/gh/brunoscopelliti/use-id.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/brunoscopelliti/use-id)
+[![Coverage](https://img.shields.io/codecov/c/github/brunoscopelliti/use-id)](https://app.codecov.io/gh/brunoscopelliti/use-id/)
 
-A template to create a new React custom hook.
+A React hook to generate a very-likely unique id, persistent across re-renders.
 
 ## Install
 
 ```
-npm i @bscop/template-react-hook
+npm i @bscop/use-id
 ```
 
 ## Usage
 
 ```js
-import useHook from "@bscop/template-react-hook";
+import useId from "@bscop/use-id";
 
-useHook();
+useId();
 ```
 
 ## Contribute

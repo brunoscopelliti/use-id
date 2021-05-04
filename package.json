@@ -1,7 +1,7 @@
 {
-  "name": "template-react-hook",
+  "name": "@bscop/use-id",
   "version": "1.0.0",
-  "description": "A template to create a new React custom hook.",
+  "description": "A React hook to generate a very-likely unique id, persistent across re-renders.",
   "main": "package/dist/index.js",
   "module": "package/dist/index.es.js",
   "types": "package/src/index.d.ts",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunoscopelliti/template-react-hook.git"
+    "url": "git+https://github.com/brunoscopelliti/use-id.git"
   },
   "directories": {
     "src": "package/src"
@@ -31,13 +31,21 @@
     "LICENSE",
     "README.md"
   ],
-  "keywords": [],
+  "keywords": [
+    "react",
+    "react hook",
+    "use id",
+    "use-id",
+    "hook id",
+    "react id",
+    "unique id"
+  ],
   "author": "Bruno Scopelliti",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brunoscopelliti/template-react-hook/issues"
+    "url": "https://github.com/brunoscopelliti/use-id/issues"
   },
-  "homepage": "https://github.com/brunoscopelliti/template-react-hook#readme",
+  "homepage": "https://github.com/brunoscopelliti/use-id#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.13.15",
     "@commitlint/cli": "^12.1.1",
