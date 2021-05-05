@@ -1,8 +1,8 @@
-type HookState = {
-  count : number;
-  increment : () => void;
-};
+type HookOptions = {
+  length ?: number;
+  prefix ?: string;
+}
 
-declare const useCounter : () => HookState;
+declare const useId : (opts : HookOptions) => string;
 
-export default useCounter;
+export default useId;
