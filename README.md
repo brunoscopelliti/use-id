@@ -15,11 +15,25 @@ npm i @bscop/use-id
 
 ## Usage
 
+Default behavior:
+
 ```js
 import useId from "@bscop/use-id";
 
-useId();
+useId(); // aS42hp
 ```
+
+Custom behavior:
+
+```js
+import useId from "@bscop/use-id";
+
+useId({ length: 10, prefix: "app" }); // app-aS42hpZn9Q
+```
+
+- `length`: determine the length of the random part of the id (default is 6).
+
+- `prefix`: define a prefix that will be prepended to the random id (default, no prefix).
 
 ## Contribute
 
