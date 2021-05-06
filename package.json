@@ -1,6 +1,6 @@
 {
   "name": "@bscop/use-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React hook to generate a very-likely unique id, persistent across re-renders.",
   "main": "package/dist/index.js",
   "module": "package/dist/index.es.js",
