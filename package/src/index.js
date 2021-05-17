@@ -13,6 +13,10 @@ const useId =
   (opts) => {
     const { length = 6, prefix = "" } = opts || {};
 
+    if (length < 1) {
+      throw new Error("[useId] received invalid length.");
+    }
+
     const ref = useRef();
 
     useMemo(

@@ -18,6 +18,12 @@ describe("useId", () => {
     expect(result.current).toHaveLength(4);
   });
 
+  it("throws an error when length is not valid", () => {
+    const { result } = renderHook(() => useId({ length: 0 }));
+
+    expect(result.error.message).toBe("[useId] received invalid length.");
+  });
+
   it("generates random id / custom prefix", () => {
     const { result } = renderHook(() => useId({ length: 4, prefix: "test" }));
 
